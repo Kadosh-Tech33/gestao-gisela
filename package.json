@@ -1,0 +1,9 @@
+{
+  "name": "gisela",
+  "private": true,
+  "type": "module",
+  "description": "Controle de jogadores e mensalidades — site estático, sem build.",
+  "scripts": {
+    "test": "node --test"
+  }
+}

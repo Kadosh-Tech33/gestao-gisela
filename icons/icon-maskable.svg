@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Versão maskable: fundo sem cantos (o sistema recorta) e o desenho dentro
+       da zona segura (círculo central de 80%). PNGs: node scripts/gerar-icones.mjs -->
+  <rect width="512" height="512" fill="#0B2418"/>
+  <defs>
+    <clipPath id="bola"><circle r="150"/></clipPath>
+    <g id="gomo">
+      <!-- gomo da borda (aponta para o centro) + costura até o pentágono central -->
+      <polygon points="0,-108 39.9,-137 24.7,-184 -24.7,-184 -39.9,-137"/>
+      <line x1="0" y1="-58" x2="0" y2="-112" stroke="#D4F53C" stroke-width="18" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <g transform="translate(256 256) scale(0.85)" fill="#D4F53C">
+    <g clip-path="url(#bola)">
+      <use href="#gomo"/>
+      <use href="#gomo" transform="rotate(72)"/>
+      <use href="#gomo" transform="rotate(144)"/>
+      <use href="#gomo" transform="rotate(216)"/>
+      <use href="#gomo" transform="rotate(288)"/>
+    </g>
+    <polygon points="0,-58 55.2,-17.9 34.1,46.9 -34.1,46.9 -55.2,-17.9" stroke="#D4F53C" stroke-width="10" stroke-linejoin="round"/>
+    <circle r="150" fill="none" stroke="#D4F53C" stroke-width="24"/>
+  </g>
+</svg>

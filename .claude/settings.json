@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/Users/marau/OneDrive/Documentos/gisela\" && grep -n \"^\\\\.kpi-row\\\\|^\\\\.kpi-card\\\\|^\\\\.kpi-label\\\\|^\\\\.kpi-value\\\\|^\\\\.counters\\\\|^\\\\.counter\\\\b\\\\|^\\\\.counter-\\\\|^\\\\.pay-table .sticky-col\\\\|^\\\\.settings\\\\|^\\\\.checkbox\\\\|^\\\\.btn-whatsapp\\\\|^@media\" css/styles.css | head -50; sed -n '/^\\\\.kpi-row {/,/^}/p;/^\\\\.kpi-card {/,/^}/p;/^\\\\.kpi-value {/,/^}/p;/^\\\\.pay-table .sticky-col {/,/^}/p;/^\\\\.settings {/,/^}/p;/^\\\\.settings-card {/,/^}/p' css/styles.css)",
+      "Bash(npm test *)",
+      "Bash(ls \"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" \"/c/Program Files/Google/Chrome/Application/chrome.exe\" 2>&1; which magick inkscape 2>&1 | head -3)",
+      "Read(//c/Program Files \\\\\\(x86\\\\\\)/Microsoft/Edge/Application/**)",
+      "Bash(node scripts/gerar-icones.mjs)",
+      "Bash(node -)",
+      "Bash(rm -rf _smoke _smoke.html _smoke_conf.html)",
+      "Bash(taskkill //F //IM python.exe)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\marau\\OneDrive\\Documentos\\gisela\\css"
+    ]
+  }
+}
